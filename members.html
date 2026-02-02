@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Thành Viên - Cửa Hàng Điện Thoại</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="modern-nav">
+                <a href="index.html" class="nav-brand">Phone-Store</a>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="products.html">Sản Phẩm</a></li>
+                        <li><a href="members.html" class="active">Thành Viên</a></li>
+                    </ul>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                        <button>🔍</button>
+                    </div>
+                    <div class="nav-actions">
+                        <div class="user-account">
+                            <button class="account-btn">Đăng nhập</button>
+                            <div class="account-dropdown">
+                                <form id="auth-form">
+                                    <input type="text" id="username" placeholder="Tên đăng nhập" required>
+                                    <input type="password" id="password" placeholder="Mật khẩu" required>
+                                    <button type="submit" id="login-btn" class="btn">Đăng nhập</button>
+                                    <button type="button" id="register-btn" class="btn">Đăng ký</button>
+                                </form>
+                            </div>
+                        </div>
+                        <button class="cart-icon" onclick="window.location.href='cart.html'">
+                            <span class="cart-count" id="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="members-hero">
+            <div class="container">
+                <h2>Giới Thiệu Thành Viên</h2>
+                <p>Đội ngũ chuyên nghiệp của chúng tôi luôn sẵn sàng phục vụ bạn</p>
+            </div>
+        </section>
+
+        <section class="members">
+            <div class="container">
+                <div class="members-grid">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="./z7494787741096_b975caea6b6753fafecf6b774ee50169.jpg" alt="Thành viên 1">
+                        </div>
+                        <div class="member-info">
+                            <h3>Lại Minh Luân</h3>
+                            <p class="member-role">Quản Lý Cửa Hàng</p>
+                            <p class="member-description">Với hơn 10 năm kinh nghiệm trong ngành điện thoại, tôi đảm bảo mang đến cho khách hàng những sản phẩm chất lượng nhất và dịch vụ tư vấn chuyên nghiệp.</p>
+                            <div class="member-contact">
+                                <p>Email: nva@store.com</p>
+                                <p>Điện thoại: 0123-456-789</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="./z7494817737173_336a0801df28e8e9ac7a96eab325c0c5.jpg" alt="Thành viên 2">
+                        </div>
+                        <div class="member-info">
+                            <h3>Phan Thành Nhân</h3>
+                            <p class="member-role">Chuyên Viên Tư Vấn</p>
+                            <p class="member-description">Tôi chuyên tư vấn về các dòng điện thoại mới nhất, giúp khách hàng lựa chọn được sản phẩm phù hợp nhất với nhu cầu và ngân sách của mình.</p>
+                            <div class="member-contact">
+                                <p>Email: ttb@store.com</p>
+                                <p>Điện thoại: 0987-654-321</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="./z7494790294861_c5700e09df7366e49d087df68bcdffd7.jpg" alt="Thành viên 3">
+                        </div>
+                        <div class="member-info">
+                            <h3>Bùi Đặng Quốc Thái</h3>
+                            <p class="member-role">Kỹ Thuật Viên</p>
+                            <p class="member-description">Chuyên gia sửa chữa và bảo hành điện thoại với nhiều năm kinh nghiệm, đảm bảo mọi thiết bị của bạn luôn hoạt động tốt nhất.</p>
+                            <div class="member-contact">
+                                <p>Email: lvc@store.com</p>
+                                <p>Điện thoại: 0912-345-678</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Địa chỉ</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31342.650318860095!2d106.7296629702418!3d10.9004231378006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d83c1116183d%3A0xfa754495eeb43247!2zVHLGsOG7nW5nIFRydW5nIEPhuqVwIEPDtG5nIE5naGnhu4dwIELDrG5oIETGsMahbmc!5e0!3m2!1svi!2s!4v1769937166822!5m2!1svi!2s" width="240" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Hệ</h3>
+                <p>Email: truongtccnbd@gmail.com</p>
+                <p>Điện thoại: 0935-656-603</p>
+            </div>
+            <div class="footer-section">
+                <h3>Theo Dõi Chúng Tôi</h3>
+                <a href="https://www.facebook.com/bdi.edu.vn">Facebook</a><br>
+                <a href="bdi.edu.vn">Website</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
